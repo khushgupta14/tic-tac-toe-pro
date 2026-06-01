@@ -6,7 +6,7 @@ A responsive, full-featured Tic Tac Toe web app built from scratch using **HTML5
 
 ## 🌐 Live Demo
 
-> 🔗 **[View Live Demo](https://your-vercel-link-here)**
+> 🔗 **[View Live Demo](https://tic-tac-toe-pro-delta.vercel.app)**
 
 ---
 
@@ -31,7 +31,7 @@ Clearly shows the winning move by lighting up the specific three boxes with a br
 Rewards ultimate victory by integrating `canvas-confetti` to trigger colorful confetti when a player clinches the entire series.
 
 ### 🌙 Dark Theme UI
-Entire UI built with CSS custom variables (`--bg-main`, `--bg-card`, `--accent`) for a modern dark aesthetic with soft shadows and rounded cards.
+Entire UI built with CSS custom variables for a modern dark aesthetic with soft shadows and rounded cards.
 
 ### 📊 Live Scoreboard & Turn Indicator
 A persistent scoreboard tracks wins across all rounds, alongside a pill-shaped badge that clearly displays the active player's turn and symbol.

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="setup-container">
+        <div class="setup-card">
+            <h1 class="hero-title dark-theme-title">TIC TAC TOE</h1>
+            
+            <div class="inputs vertical-layout">
+                <div class="input-group">
+                    <label>Player 1 Name (O)</label>
+                    <input type="text" id="p1-name" placeholder="Enter Name...">
+                </div>
+                
+                <div class="input-group">
+                    <label>Player 2 Name (X)</label>
+                    <input type="text" id="p2-name" placeholder="Enter Name...">
+                </div>
+
+                <div class="input-group">
+                    <label>Game Mode:</label>
+                    <select id="game-mode">
+                        <option value="pvp">Player vs Player</option>
+                        <option value="pvc">1 Player vs Computer</option>
+                    </select>
+                </div>
+                
+                <div class="input-group">
+                    <label>Number of Matches:</label>
+                    <select id="match-count">
+                        <option value="1">1 Match</option>
+                        <option value="2">2 Matches</option>
+                        <option value="3">3 Matches</option>
+                        <option value="4">4 Matches</option>
+                        <option value="5">5 Matches</option>
+                        <option value="6">6 Matches</option>
+                        <option value="7">7 Matches</option>
+                        <option value="8">8 Matches</option>
+                        <option value="9">9 Matches</option>
+                        <option value="10">10 Matches</option>
+                    </select>
+                </div>
+            </div>
+
+            <button id="startGame" class="dark-btn">START GAME</button>
+        </div>
+    </div>
+
+    <div class="msg-container hide">
+        <p id="msg-congrats">CONGRATULATIONS!</p>
+        <p id="msg-winner"></p>
+        <p id="final-scores"></p>
+        <button id="newButton">New Game</button>
+    </div>
+
+    <main class="hide" id="game-main">
+        <h1 class="game-title">TIC TAC TOE</h1>        
+        <div id="turn-indicator">Waiting...</div>
+        <div id="timer-container">
+            <p id="timer">Time Left: 10s</p>
+        </div>
+
+        <div class="scoreboard">
+            <div class="score-card">
+                <p id="name1">Player 1</p>
+                <span>(O): <b id="s1">0</b></span>
+            </div>
+            <div class="score-card">
+                <p id="name2">Player 2</p>
+                <span>(X): <b id="s2">0</b></span>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+
+        <button id="resetButton">Reset Game</button>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

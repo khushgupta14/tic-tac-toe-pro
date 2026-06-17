@@ -35,6 +35,7 @@ Entire UI built with CSS custom variables for a modern dark aesthetic with soft 
 
 ### 📊 Live Scoreboard & Turn Indicator
 A persistent scoreboard tracks wins across all rounds, alongside a pill-shaped badge that clearly displays the active player's turn and symbol.
+
 ---
 
 ## 📁 Project Structure
